@@ -1,7 +1,7 @@
 #ifndef PARTICLE_H_
 #define PARTICLE_H_
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 
 class Particle {
 

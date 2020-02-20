@@ -1,5 +1,5 @@
 #include <iostream>
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "Screen.h"
 #include <math.h>
 #include <time.h>

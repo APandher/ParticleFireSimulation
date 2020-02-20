@@ -1,7 +1,7 @@
 #ifndef SCREEN_H_
 #define SCREEN_H_
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include <string.h>
 
 class Screen {
@@ -17,8 +17,8 @@ private:
 
 public:
 
-	const static int screenWidth{ 800 };
-	const static int screenHeight{ 600 };
+	const static int screenWidth = 800;
+	const static int screenHeight = 600;
 
 	Screen();
 	bool init();

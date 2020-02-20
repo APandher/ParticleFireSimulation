@@ -1,7 +1,7 @@
 #ifndef CLUSTER_H_
 #define CLUSTER_H_
 
-#include <SDL.h>
+#include <SDL2/SDL.h>
 #include "Particle.h"
 
 class Cluster {
